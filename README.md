@@ -1,6 +1,4 @@
-# ExploGooglePosition
-
-# Explorer son historique de positions Google
+# Explorer son historique de positions Google avec un plugin QGIS
 
 ## Etape1. Récupérer son historique de position Google
 
