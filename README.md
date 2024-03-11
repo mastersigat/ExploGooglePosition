@@ -19,11 +19,12 @@ Les étudiants du Master 2 [SIGAT](https://sites-formations.univ-rennes2.fr/mast
 
 
 * **Exporter le ficher avec vos données** (par mail par exemple)
-<br> ![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/ExportdataGoogle.PNG)
+
+<br> ![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/ExportTakeout.PNG)
 
 
 * **Télécharger le  ficher avec vos données puis le décompresser**
-<br> ![alt text](https://raw.githubusercontent.com/bmericskay/GeoDataGoogle/main/4.PNG)
+<br> ![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/ExportdataGoogle.PNG)
 
 
 * **Dans le dossier, trouver le ficher Records.json** (qui contient tout votre historique de position)
@@ -36,7 +37,7 @@ Le fichier fourni par Google qui centralise vos données est dans le format JSON
 
 ![alt text](https://raw.githubusercontent.com/bmericskay/GeoDataGoogle/main/JSON.PNG)
 
-<br> <br>
+<br> 
 
 ## Etape2. Installer le plugin QGIS
 
@@ -45,14 +46,15 @@ Nous avons donc créé un plugin QGIS à l'aide de python qui prend en entrée l
 Il faut d'abord télécharger le plugin QGIS (fait avec Python) disponible sur cette page :
 <br> https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/PluginQGIS_ExplorGooglePosition.zip
 
-Ouvrir dans QGIS le gestionnaire des extensions
+**Ouvrir dans QGIS le gestionnaire des extensions**
 ![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/GestionExtension.PNG)
 
-Intaller le plugin téléchargé
+**Intaller le plugin téléchargé**
+Il se peux qu'il y ai des messages d'erreurs, il faut tout accepté
 
 ![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/extension.PNG)
 
-Le plugin est bien installé !
+**Le plugin est bien installé !**
 
 ![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/Instasucces.PNG)
 
@@ -60,21 +62,29 @@ Le plugin est bien installé !
 
 ## Etape3. Utilisation du plugin Histo_googlemaps
 
+**Activer le nouveau Plugin dans le gestionnaire des extensions** 
 Afin qu'il apparaisse dans votre barre d'outils QGIS, allez dans les extensions installées et cocher le plugin Histo_googlemaps.
-Puis, ouvrez le plugin (logo de Google Maps) et renseignez les champs de cette façon : 
+
 
 ![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/Activateplugin.PNG)
 
+**Lancer le plugin**
+
+![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/Lancementplugin.PNG)
+
+**Configurer le chargement de votre historique de positions comme une couche géographique**
+
 <ul></ul>
   <li>Dans le premier paramètre, allez chercher votre fichier Records.json</li>
-  <li>Ensuite, indiquez le répertoire dans lequel vous souhaitez enregistrer le fichier csv en ajoutant .csv après le nom</li>
-  <li>Faites de même pour le shapefile en ajoutant .shp après le nom</li></br>
+  <li>Ensuite, indiquez le répertoire dans lequel vous souhaitez enregistrer le fichier csv **en ajoutant .csv après le nom**</li>
+  <li>Faites de même pour enregistrer le fichier en shapefile **en ajoutant .shp après le nom**</li></br>
 
 ![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/plugin.PNG)
 
+**Vous pouvez explorer vos traces Google dans QGIS**
 
 Voici un exemple de ce que peut sortir le plugin avec des données remontant à 2014 :</br>
-![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/rendu.PNG)
+![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/Rendu.PNG)
 
 
 -----------------
