@@ -19,12 +19,11 @@ Les étudiants du Master 2 [SIGAT](https://sites-formations.univ-rennes2.fr/mast
 
 
 * **Exporter le ficher avec vos données** (par mail par exemple)
-
-<br> ![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/ExportTakeout.PNG)
+![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/ExportTakeout.PNG)
 
 
 * **Télécharger le  ficher avec vos données puis le décompresser**
-<br> ![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/ExportdataGoogle.PNG)
+![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/ExportdataGoogle.PNG)
 
 
 * **Dans le dossier, trouver le ficher Records.json** (qui contient tout votre historique de position)
@@ -65,12 +64,11 @@ Il se peux qu'il y ai des messages d'erreurs, il faut tout accepté
 **Activer le nouveau Plugin dans le gestionnaire des extensions** 
 Afin qu'il apparaisse dans votre barre d'outils QGIS, allez dans les extensions installées et cocher le plugin Histo_googlemaps.
 
-
-<br> ![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/Activateplugin.PNG)
+![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/Activateplugin.PNG)
 
 **Lancer le plugin**
 
-<br> ![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/Lancementplugin.PNG)
+![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/Lancementplugin.PNG)
 
 **Configurer le chargement de votre historique de positions comme une couche géographique**
 
@@ -79,7 +77,7 @@ Afin qu'il apparaisse dans votre barre d'outils QGIS, allez dans les extensions 
   <li>Ensuite, indiquez le répertoire dans lequel vous souhaitez enregistrer le fichier csv **en ajoutant .csv après le nom**</li>
   <li>Faites de même pour enregistrer le fichier en shapefile **en ajoutant .shp après le nom**</li>
 
-<br> ![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/plugin.PNG)
+![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/plugin.PNG)
 
 **Vous pouvez explorer vos traces Google dans QGIS**
 
