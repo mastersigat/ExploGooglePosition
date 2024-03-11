@@ -4,7 +4,7 @@
 
 Si vous utilisez régulièrement Google Maps ou que vous possédez un téléphone sous Android, Google enregistre vos activités de déplacement. 
 
-Les étudiants du M2 SIGAT (https://sites-formations.univ-rennes2.fr/mastersigat/) ont développé un PLugin QGIS (basé sur Pyhton) pour visualiser simplement vos données personnelles de localisation collectées par Google directemtn dans QGIS.
+Les étudiants du Master 2 [SIGAT](https://sites-formations.univ-rennes2.fr/mastersigat/) ont développé un Plugin QGIS (basé sur Pyhton) pour visualiser simplement vos données personnelles de localisation collectées par Google directement dans QGIS.
 
 ## Etape1. Récupérer son historique de position Google
 
@@ -19,10 +19,6 @@ Les étudiants du M2 SIGAT (https://sites-formations.univ-rennes2.fr/mastersigat
 
 
 * **Exporter le ficher avec vos données** (par mail par exemple)
-<br> ![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/ExportdataGoogle.PNG)
-
-
-* **Télécharger le ficher avec vos données** (par mail par exemple)
 <br> ![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/ExportdataGoogle.PNG)
 
 
