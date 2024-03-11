@@ -23,7 +23,6 @@
 <br> <br> ![alt text](https://raw.githubusercontent.com/bmericskay/GeoDataGoogle/main/5.PNG)
 
 <br> <br>
-## Etape2. Préparer les données
 
 Le fichier fourni par Google qui centralise vos données est dans le format JSON qui n'est pas très pratique pour explorer des données spatiales, de plus les coordonnées géographiques qui y sont renseignées ne sont pas utilisables.
 <br/>
@@ -31,11 +30,19 @@ Le fichier fourni par Google qui centralise vos données est dans le format JSON
 ![alt text](https://raw.githubusercontent.com/bmericskay/GeoDataGoogle/main/JSON.PNG)
 
 <br> <br>
-## Etape3. Utilisation du plugin Histo_googlemaps
+
+## Etape2. Installer le plugin QGIS
 
 Nous avons donc créé un plugin QGIS à l'aide de python qui prend en entrée le fichier JSON sorti par Google et sort un fichier csv et un fichier shapefile. Pour ajouter le plugin veuillez télécharger le zip disponible sur github. Ensuite, dirigez-vous vers les extensions et 'Installer depuis un ZIP'. Vous allez pouvoir renseigner le chemin du plugin et l'installer.</br>
 
-![alt text](https://raw.githubusercontent.com/bmericskay/GeoDataGoogle/main/extension.PNG)
+Il faut d'abord télécharger le plugin QGIS (fait avec Python) disponible sur cette page https://github.com/mastersigat/ExploGooglePosition/blob/main/PluginQGIS_ExplorGooglePosition.zip
+
+![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/Images/extension.PNG)
+
+
+## Etape3. Utilisation du plugin Histo_googlemaps
+
+
 
 Afin qu'il apparaisse dans votre barre d'outils QGIS, allez dans les extensions installées et cocher le plugin Histo_googlemaps.
 Puis, ouvrez le plugin (logo de Google Maps) et renseignez les champs de cette façon : 
