@@ -45,17 +45,15 @@ Nous avons donc créé un plugin QGIS à l'aide de python qui prend en entrée l
 Il faut d'abord télécharger le plugin QGIS (fait avec Python) disponible sur cette page :
 <br> https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/PluginQGIS_ExplorGooglePosition.zip
 
-**Ouvrir dans QGIS le gestionnaire des extensions**
-<br> ![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/GestionExtension.PNG)
+**Ouvrir dans QGIS le gestionnaire des extensions** <br><br>
+ ![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/GestionExtension.PNG)
 
-**Intaller le plugin téléchargé**
-Il se peux qu'il y ai des messages d'erreurs, il faut tout accepté
+**Intaller le plugin téléchargé en chargant directement le fichier.zip** <br>
+Il se peux que des messages d'erreurs apparaissent, il faut tout accepté ;)  <br><br>
+![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/extension.PNG)
 
-<br> ![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/extension.PNG)
-
-**Le plugin est bien installé !**
-
-<br> ![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/Instasucces.PNG)
+**Le plugin est bien installé !** <br><br>
+![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/Instasucces.PNG)
 
 
 
@@ -74,14 +72,14 @@ Afin qu'il apparaisse dans votre barre d'outils QGIS, allez dans les extensions 
 
 <ul></ul>
   <li>Dans le premier paramètre, allez chercher votre fichier Records.json</li>
-  <li>Ensuite, indiquez le répertoire dans lequel vous souhaitez enregistrer le fichier csv **en ajoutant .csv après le nom**</li>
-  <li>Faites de même pour enregistrer le fichier en shapefile **en ajoutant .shp après le nom**</li>
+  <li>Ensuite, indiquez le répertoire dans lequel vous souhaitez enregistrer le fichier csv en ajoutant .csv après le nom </li>
+  <li>Faites de même pour enregistrer le fichier en shapefile en ajoutant .shp après le nom</li>
 
 ![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/plugin.PNG)
 
 **Vous pouvez explorer vos traces Google dans QGIS**
 
-Voici un exemple de ce que peut sortir le plugin avec des données remontant à 2014 :
+Voici un exemple de ce que peut sortir le plugin avec des données remontant à 2014 : <br><br>
 ![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/Rendu.PNG)
 
 
