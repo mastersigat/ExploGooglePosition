@@ -35,7 +35,9 @@ Le fichier fourni par Google qui centralise vos données est dans le format JSON
 
 Nous avons donc créé un plugin QGIS à l'aide de python qui prend en entrée le fichier JSON sorti par Google et sort un fichier csv et un fichier shapefile. Pour ajouter le plugin veuillez télécharger le zip disponible sur github. Ensuite, dirigez-vous vers les extensions et 'Installer depuis un ZIP'. Vous allez pouvoir renseigner le chemin du plugin et l'installer.</br>
 
-Il faut d'abord télécharger le plugin QGIS (fait avec Python) disponible sur cette page https://github.com/mastersigat/ExploGooglePosition/blob/main/PluginQGIS_ExplorGooglePosition.zip
+Il faut d'abord télécharger le plugin QGIS (fait avec Python) disponible sur cette page :
+<br> https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/PluginQGIS_ExplorGooglePosition.zip
+
 
 ![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/Images/extension.PNG)
 
