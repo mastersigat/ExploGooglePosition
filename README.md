@@ -39,12 +39,10 @@ Il faut d'abord télécharger le plugin QGIS (fait avec Python) disponible sur c
 <br> https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/PluginQGIS_ExplorGooglePosition.zip
 
 
-![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/Images/extension.PNG)
+![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/extension.PNG)
 
 
 ## Etape3. Utilisation du plugin Histo_googlemaps
-
-
 
 Afin qu'il apparaisse dans votre barre d'outils QGIS, allez dans les extensions installées et cocher le plugin Histo_googlemaps.
 Puis, ouvrez le plugin (logo de Google Maps) et renseignez les champs de cette façon : 
@@ -53,8 +51,8 @@ Puis, ouvrez le plugin (logo de Google Maps) et renseignez les champs de cette f
   <li>Ensuite, indiquez le répertoire dans lequel vous souhaitez enregistrer le fichier csv en ajoutant .csv après le nom</li>
   <li>Faites de même pour le shapefile en ajoutant .shp après le nom</li></br>
 
-![alt text](https://raw.githubusercontent.com/bmericskay/GeoDataGoogle/main/plugin.PNG)
+![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/plugin.PNG)
 
 
 Voici un exemple de ce que peut sortir le plugin avec des données remontant à 2014 :</br>
-![alt text](https://raw.githubusercontent.com/bmericskay/GeoDataGoogle/main/rendu.PNG)
+![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/rendu.PNG)
