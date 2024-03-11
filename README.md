@@ -29,3 +29,23 @@ Le fichier fourni par Google qui centralise vos données est dans le format JSON
 <br/>
 
 ![alt text](https://raw.githubusercontent.com/bmericskay/GeoDataGoogle/main/JSON.PNG)
+
+<br> <br>
+## Etape3. Utilisation du plugin Histo_googlemaps
+
+Nous avons donc créé un plugin QGIS à l'aide de python qui prend en entrée le fichier JSON sorti par Google et sort un fichier csv et un fichier shapefile. Pour ajouter le plugin veuillez télécharger le zip disponible sur github. Ensuite, dirigez-vous vers les extensions et 'Installer depuis un ZIP'. Vous allez pouvoir renseigner le chemin du plugin et l'installer.</br>
+
+![alt text](https://raw.githubusercontent.com/bmericskay/GeoDataGoogle/main/extension.PNG)
+
+Afin qu'il apparaisse dans votre barre d'outils QGIS, allez dans les extensions installées et cocher le plugin Histo_googlemaps.
+Puis, ouvrez le plugin (logo de Google Maps) et renseignez les champs de cette façon : 
+<ul></ul>
+  <li>Dans le premier paramètre, allez chercher votre fichier Records.json</li>
+  <li>Ensuite, indiquez le répertoire dans lequel vous souhaitez enregistrer le fichier csv en ajoutant .csv après le nom</li>
+  <li>Faites de même pour le shapefile en ajoutant .shp après le nom</li></br>
+
+![alt text](https://raw.githubusercontent.com/bmericskay/GeoDataGoogle/main/plugin.PNG)
+
+
+Voici un exemple de ce que peut sortir le plugin avec des données remontant à 2014 :</br>
+![alt text](https://raw.githubusercontent.com/bmericskay/GeoDataGoogle/main/rendu.PNG)
