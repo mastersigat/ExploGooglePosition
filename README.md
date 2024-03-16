@@ -49,7 +49,7 @@ Il faut d'abord télécharger le plugin QGIS (fait avec Python) disponible sur c
  ![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/GestionExtension.PNG)
 
 **Intaller le plugin téléchargé en chargant directement le fichier.zip** <br>
-Il se peux que des messages d'erreurs apparaissent, il faut tout accepté ;)  <br><br>
+Il se peux que des messages d'erreurs apparaissent, il faut tout accepter ;)  <br><br>
 ![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/extension.PNG)
 
 **Le plugin est bien installé !** <br><br>
