@@ -6,6 +6,9 @@ Si vous utilisez régulièrement Google Maps ou que vous possédez un téléphon
 
 Les étudiants du Master 2 [SIGAT](https://sites-formations.univ-rennes2.fr/mastersigat/) ont développé un Plugin QGIS (basé sur Pyhton) pour visualiser simplement vos données personnelles de localisation collectées par Google directement dans QGIS.
 
+*Ce plugin a été développé en 2024 par Constant Jonas - Delalande Jules - Lemétayer Clara - Leray Tristan*
+
+
 ## Etape1. Récupérer son historique de position Google
 
 * Se rendre sur le site **https://takeout.google.com/settings/takeout** pour récupérer ses données personnelles
@@ -61,17 +64,27 @@ Il faut d'abord télécharger le plugin QGIS (fait avec Python) disponible sur c
 <br> https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/PluginQGIS_ExplorGooglePosition.
 <br>
 
-**Ouvrir dans QGIS le gestionnaire des extensions** <br><br>
- ![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/GestionExtension.PNG)
- <br>
+**Ouvrir dans QGIS le gestionnaire des extensions** <br>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/GestionExtension.PNG" alt="alt tag" width="850">
+</p>
 
 **Intaller le plugin téléchargé en chargant directement le fichier.zip** <br>
-Il se peux que des messages d'erreurs apparaissent, il faut tout accepter ;)  <br><br>
-![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/extension.PNG)
-<br>
+Il se peux que des messages d'erreurs apparaissent, il faut tout accepter ;)  <br>
 
-**Le plugin est bien installé !** <br><br>
-![alt text](https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/Instasucces.PNG)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/extension.PNG" alt="alt tag" width="850">
+</p>
+
+
+
+**Le plugin est bien installé !** <br>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/Instasucces.PNG" alt="alt tag" width="850">
+</p>
+
 
 
 
@@ -88,14 +101,15 @@ Afin qu'il apparaisse dans votre barre d'outils QGIS, allez dans les extensions 
 
 **Configurer le chargement de votre historique de positions comme une couche géographique**
 
+
 <ul></ul>
   <li>Dans le premier paramètre, allez chercher votre fichier Records.json</li>
   <li>Ensuite, indiquez le répertoire dans lequel vous souhaitez enregistrer le fichier csv en ajoutant .csv après le nom </li>
   <li>Faites de même pour enregistrer le fichier en shapefile en ajoutant .shp après le nom</li>
 
-
+ <br>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/plugin.PNG" alt="alt tag" width="600">
+  <img src="https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/Images/plugin.PNG" alt="alt tag" width="700">
 </p>
 
 **Vous pouvez explorer vos traces Google dans QGIS**
@@ -106,5 +120,4 @@ Voici un exemple de ce que peut sortir le plugin avec des données remontant à 
 
 -----------------
 
-Ce plugin a été développé en 2024 par Constant Jonas - Delalande Jules - Lemétayer Clara - Leray Tristan.
 
