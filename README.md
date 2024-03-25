@@ -4,7 +4,7 @@
 
 Si vous utilisez régulièrement Google Maps ou que vous possédez un téléphone sous Android, Google enregistre vos activités de déplacement. 
 
-Les étudiants du Master 2 [SIGAT](https://sites-formations.univ-rennes2.fr/mastersigat/) ont développé un Plugin QGIS (basé sur Pyhton) pour visualiser simplement vos données personnelles de localisation collectées par Google directement dans QGIS.
+Les étudiants du Master 2 [SIGAT](https://sites-formations.univ-rennes2.fr/mastersigat/) ont développé un Plugin QGIS (basé sur Python) pour visualiser simplement vos données personnelles de localisation collectées par Google directement dans QGIS.
 
 *Ce plugin a été développé en 2024 par Constant Jonas - Delalande Jules - Lemétayer Clara - Leray Tristan*
 
