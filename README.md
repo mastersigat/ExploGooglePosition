@@ -61,7 +61,7 @@ Afin de permettre de visualiser simplement les données de positions collectées
 
 **Télécharger le plugin QGIS**<br><br>
 Il faut d'abord télécharger le plugin QGIS (fait avec Python) disponible sur cette page :
-<br> https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/PluginQGIS_ExplorGooglePosition.
+<br> https://raw.githubusercontent.com/mastersigat/ExploGooglePosition/main/PluginQGIS_ExplorGooglePosition.zip
 <br>
 
 **Ouvrir dans QGIS le gestionnaire des extensions** <br>
