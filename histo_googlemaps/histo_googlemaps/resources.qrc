@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/Histo_GoogleMaps" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
